@@ -9,7 +9,7 @@ var myVariable = 33;
 
 if(true){
 
-myVariable does exist down here.
+myVariable does exist here.
 
 }
 
