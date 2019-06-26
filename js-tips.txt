@@ -1,0 +1,28 @@
+**************************
+Javascript - tips!
+**************************
+var| has a global scope
+
+function myfunction(){
+
+var myVariable = 33;
+
+if(true){
+
+myVariable does exist down here.
+
+}
+
+}
+**************************
+let| has block scope
+
+if(true){
+
+let i = 33;
+
+}
+let i does not exist down here.
+
+**************************
+constants can't be reasigned but on objects, the internal values can be changed.
